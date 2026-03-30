@@ -17,3 +17,12 @@ model_training_metrics:
   type: json.JSONDataset
   filepath: data/08_reporting/model_training_metrics.json
 
+
+embedding_text_classifier_artifact:
+  type: pickle.PickleDataset
+  filepath: data/06_models/embedding_text_classifier_artifact.pkl
+
+
+embedding_training_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/embedding_training_metrics.json

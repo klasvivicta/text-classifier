@@ -20,6 +20,7 @@ dependencies = [
     "kedro-viz>=6.7.0",
     "scikit-learn~=1.5.1",
     "seaborn~=0.12.1",
+    "sentence-transformers>=3.0.0",
 ]
 
 [project.scripts]

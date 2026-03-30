@@ -146,3 +146,14 @@ model_training:
       - man
   logistic_regression:
     max_iter: 1000
+
+embedding_training:
+  test_size: 0.2
+  random_state: 42
+  embedding_model:
+    name: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+    batch_size: 16
+    normalize_embeddings: true
+    device: cpu
+  logistic_regression:
+    max_iter: 1000
