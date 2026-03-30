@@ -1,0 +1,506 @@
+id,text,label
+1,Jag spelar fotboll,sports
+2,Jag cyklar långt,sports
+3,Jag kör padel,sports
+4,Jag cyklar långt,sports
+5,Jag kör padel,sports
+6,Jag tränar på gymmet,sports
+7,Jag springer i skogen,sports
+8,Jag tränar på gymmet,sports
+9,Jag spelar fotboll,sports
+10,Jag cyklar långt,sports
+11,Jag tränar på gymmet,sports
+12,Jag tränar på gymmet,sports
+13,Jag cyklar långt,sports
+14,Jag cyklar långt,sports
+15,Jag cyklar långt,sports
+16,Jag springer i skogen,sports
+17,Jag springer i skogen,sports
+18,Jag tränar på gymmet,sports
+19,Jag springer i skogen,sports
+20,Jag kör padel,sports
+21,Jag springer i skogen,sports
+22,Jag tränar på gymmet,sports
+23,Jag cyklar långt,sports
+24,Jag kör padel,sports
+25,Jag spelar fotboll,sports
+26,Jag springer i skogen,sports
+27,Jag kör padel,sports
+28,Jag tränar på gymmet,sports
+29,Jag springer i skogen,sports
+30,Jag cyklar långt,sports
+31,Jag cyklar långt,sports
+32,Jag springer i skogen,sports
+33,Jag springer i skogen,sports
+34,Jag tränar på gymmet,sports
+35,Jag cyklar långt,sports
+36,Jag kör padel,sports
+37,Jag springer i skogen,sports
+38,Jag spelar fotboll,sports
+39,Jag cyklar långt,sports
+40,Jag springer i skogen,sports
+41,Jag springer i skogen,sports
+42,Jag spelar fotboll,sports
+43,Jag spelar fotboll,sports
+44,Jag kör padel,sports
+45,Jag cyklar långt,sports
+46,Jag tränar på gymmet,sports
+47,Jag spelar fotboll,sports
+48,Jag cyklar långt,sports
+49,Jag springer i skogen,sports
+50,Jag kör padel,sports
+51,Jag tränar på gymmet,sports
+52,Jag springer i skogen,sports
+53,Jag kör padel,sports
+54,Jag springer i skogen,sports
+55,Jag spelar fotboll,sports
+56,Jag vandrar i fjällen,outdoors
+57,Jag älskar friluftsliv,outdoors
+58,Jag campar ofta,outdoors
+59,Jag vandrar i fjällen,outdoors
+60,Jag fiskar på sommaren,outdoors
+61,Jag vandrar i fjällen,outdoors
+62,Jag klättrar i berg,outdoors
+63,Jag älskar friluftsliv,outdoors
+64,Jag vandrar i fjällen,outdoors
+65,Jag vandrar i fjällen,outdoors
+66,Jag älskar friluftsliv,outdoors
+67,Jag älskar friluftsliv,outdoors
+68,Jag älskar friluftsliv,outdoors
+69,Jag klättrar i berg,outdoors
+70,Jag vandrar i fjällen,outdoors
+71,Jag klättrar i berg,outdoors
+72,Jag fiskar på sommaren,outdoors
+73,Jag fiskar på sommaren,outdoors
+74,Jag klättrar i berg,outdoors
+75,Jag älskar friluftsliv,outdoors
+76,Jag klättrar i berg,outdoors
+77,Jag fiskar på sommaren,outdoors
+78,Jag campar ofta,outdoors
+79,Jag älskar friluftsliv,outdoors
+80,Jag älskar friluftsliv,outdoors
+81,Jag campar ofta,outdoors
+82,Jag campar ofta,outdoors
+83,Jag campar ofta,outdoors
+84,Jag älskar friluftsliv,outdoors
+85,Jag älskar friluftsliv,outdoors
+86,Jag fiskar på sommaren,outdoors
+87,Jag klättrar i berg,outdoors
+88,Jag vandrar i fjällen,outdoors
+89,Jag klättrar i berg,outdoors
+90,Jag älskar friluftsliv,outdoors
+91,Jag älskar friluftsliv,outdoors
+92,Jag vandrar i fjällen,outdoors
+93,Jag älskar friluftsliv,outdoors
+94,Jag älskar friluftsliv,outdoors
+95,Jag fiskar på sommaren,outdoors
+96,Jag fiskar på sommaren,outdoors
+97,Jag vandrar i fjällen,outdoors
+98,Jag campar ofta,outdoors
+99,Jag klättrar i berg,outdoors
+100,Jag klättrar i berg,outdoors
+101,Jag vandrar i fjällen,outdoors
+102,Jag vandrar i fjällen,outdoors
+103,Jag campar ofta,outdoors
+104,Jag campar ofta,outdoors
+105,Jag älskar friluftsliv,outdoors
+106,Jag fiskar på sommaren,outdoors
+107,Jag fiskar på sommaren,outdoors
+108,Jag älskar friluftsliv,outdoors
+109,Jag vandrar i fjällen,outdoors
+110,Jag fiskar på sommaren,outdoors
+111,Jag lagar mycket mat,cooking
+112,Jag fermenterar grönsaker,cooking
+113,Jag testar nya recept,cooking
+114,Jag bakar bröd,cooking
+115,Jag grillar ofta,cooking
+116,Jag lagar mycket mat,cooking
+117,Jag fermenterar grönsaker,cooking
+118,Jag grillar ofta,cooking
+119,Jag bakar bröd,cooking
+120,Jag fermenterar grönsaker,cooking
+121,Jag lagar mycket mat,cooking
+122,Jag bakar bröd,cooking
+123,Jag testar nya recept,cooking
+124,Jag lagar mycket mat,cooking
+125,Jag bakar bröd,cooking
+126,Jag fermenterar grönsaker,cooking
+127,Jag testar nya recept,cooking
+128,Jag testar nya recept,cooking
+129,Jag grillar ofta,cooking
+130,Jag lagar mycket mat,cooking
+131,Jag grillar ofta,cooking
+132,Jag lagar mycket mat,cooking
+133,Jag fermenterar grönsaker,cooking
+134,Jag bakar bröd,cooking
+135,Jag grillar ofta,cooking
+136,Jag testar nya recept,cooking
+137,Jag grillar ofta,cooking
+138,Jag grillar ofta,cooking
+139,Jag fermenterar grönsaker,cooking
+140,Jag bakar bröd,cooking
+141,Jag grillar ofta,cooking
+142,Jag grillar ofta,cooking
+143,Jag bakar bröd,cooking
+144,Jag bakar bröd,cooking
+145,Jag bakar bröd,cooking
+146,Jag lagar mycket mat,cooking
+147,Jag testar nya recept,cooking
+148,Jag lagar mycket mat,cooking
+149,Jag grillar ofta,cooking
+150,Jag bakar bröd,cooking
+151,Jag bakar bröd,cooking
+152,Jag bakar bröd,cooking
+153,Jag grillar ofta,cooking
+154,Jag fermenterar grönsaker,cooking
+155,Jag grillar ofta,cooking
+156,Jag bakar bröd,cooking
+157,Jag testar nya recept,cooking
+158,Jag testar nya recept,cooking
+159,Jag lagar mycket mat,cooking
+160,Jag testar nya recept,cooking
+161,Jag grillar ofta,cooking
+162,Jag grillar ofta,cooking
+163,Jag testar nya recept,cooking
+164,Jag lagar mycket mat,cooking
+165,Jag lagar mycket mat,cooking
+166,Jag skapar konst,arts
+167,Jag skapar konst,arts
+168,Jag skriver poesi,arts
+169,Jag går på museum,arts
+170,Jag målar tavlor,arts
+171,Jag spelar teater,arts
+172,Jag skapar konst,arts
+173,Jag spelar teater,arts
+174,Jag skriver poesi,arts
+175,Jag går på museum,arts
+176,Jag spelar teater,arts
+177,Jag går på museum,arts
+178,Jag skriver poesi,arts
+179,Jag målar tavlor,arts
+180,Jag målar tavlor,arts
+181,Jag går på museum,arts
+182,Jag går på museum,arts
+183,Jag går på museum,arts
+184,Jag går på museum,arts
+185,Jag skapar konst,arts
+186,Jag målar tavlor,arts
+187,Jag skapar konst,arts
+188,Jag spelar teater,arts
+189,Jag skriver poesi,arts
+190,Jag skapar konst,arts
+191,Jag spelar teater,arts
+192,Jag går på museum,arts
+193,Jag målar tavlor,arts
+194,Jag målar tavlor,arts
+195,Jag skriver poesi,arts
+196,Jag skriver poesi,arts
+197,Jag spelar teater,arts
+198,Jag skapar konst,arts
+199,Jag går på museum,arts
+200,Jag skapar konst,arts
+201,Jag skapar konst,arts
+202,Jag spelar teater,arts
+203,Jag målar tavlor,arts
+204,Jag går på museum,arts
+205,Jag skriver poesi,arts
+206,Jag skapar konst,arts
+207,Jag går på museum,arts
+208,Jag målar tavlor,arts
+209,Jag skapar konst,arts
+210,Jag målar tavlor,arts
+211,Jag målar tavlor,arts
+212,Jag skapar konst,arts
+213,Jag går på museum,arts
+214,Jag målar tavlor,arts
+215,Jag går på museum,arts
+216,Jag går på museum,arts
+217,Jag skapar konst,arts
+218,Jag skriver poesi,arts
+219,Jag skriver poesi,arts
+220,Jag spelar teater,arts
+221,Jag producerar musik,music
+222,Jag går på konserter,music
+223,Jag spelar piano,music
+224,Jag spelar gitarr,music
+225,Jag sjunger i kör,music
+226,Jag sjunger i kör,music
+227,Jag producerar musik,music
+228,Jag går på konserter,music
+229,Jag sjunger i kör,music
+230,Jag sjunger i kör,music
+231,Jag går på konserter,music
+232,Jag går på konserter,music
+233,Jag spelar gitarr,music
+234,Jag producerar musik,music
+235,Jag sjunger i kör,music
+236,Jag går på konserter,music
+237,Jag spelar piano,music
+238,Jag går på konserter,music
+239,Jag producerar musik,music
+240,Jag producerar musik,music
+241,Jag producerar musik,music
+242,Jag sjunger i kör,music
+243,Jag går på konserter,music
+244,Jag går på konserter,music
+245,Jag går på konserter,music
+246,Jag sjunger i kör,music
+247,Jag spelar piano,music
+248,Jag producerar musik,music
+249,Jag spelar piano,music
+250,Jag sjunger i kör,music
+251,Jag spelar gitarr,music
+252,Jag går på konserter,music
+253,Jag sjunger i kör,music
+254,Jag spelar gitarr,music
+255,Jag spelar gitarr,music
+256,Jag spelar piano,music
+257,Jag spelar gitarr,music
+258,Jag sjunger i kör,music
+259,Jag går på konserter,music
+260,Jag sjunger i kör,music
+261,Jag sjunger i kör,music
+262,Jag spelar piano,music
+263,Jag går på konserter,music
+264,Jag går på konserter,music
+265,Jag spelar gitarr,music
+266,Jag spelar gitarr,music
+267,Jag sjunger i kör,music
+268,Jag spelar piano,music
+269,Jag går på konserter,music
+270,Jag spelar piano,music
+271,Jag går på konserter,music
+272,Jag går på konserter,music
+273,Jag går på konserter,music
+274,Jag sjunger i kör,music
+275,Jag producerar musik,music
+276,Jag bygger elektronik,tech
+277,Jag bygger elektronik,tech
+278,Jag programmerar i Python,tech
+279,Jag programmerar i Python,tech
+280,Jag bygger elektronik,tech
+281,Jag bygger elektronik,tech
+282,Jag programmerar i Python,tech
+283,Jag experimenterar med AI,tech
+284,Jag kodar hobbyprojekt,tech
+285,Jag bygger elektronik,tech
+286,Jag bygger elektronik,tech
+287,Jag bygger elektronik,tech
+288,Jag programmerar i Python,tech
+289,Jag programmerar i Python,tech
+290,Jag bygger robotar,tech
+291,Jag kodar hobbyprojekt,tech
+292,Jag experimenterar med AI,tech
+293,Jag kodar hobbyprojekt,tech
+294,Jag kodar hobbyprojekt,tech
+295,Jag kodar hobbyprojekt,tech
+296,Jag bygger robotar,tech
+297,Jag experimenterar med AI,tech
+298,Jag bygger robotar,tech
+299,Jag kodar hobbyprojekt,tech
+300,Jag bygger robotar,tech
+301,Jag kodar hobbyprojekt,tech
+302,Jag kodar hobbyprojekt,tech
+303,Jag bygger elektronik,tech
+304,Jag bygger robotar,tech
+305,Jag bygger elektronik,tech
+306,Jag bygger elektronik,tech
+307,Jag experimenterar med AI,tech
+308,Jag kodar hobbyprojekt,tech
+309,Jag bygger robotar,tech
+310,Jag kodar hobbyprojekt,tech
+311,Jag bygger elektronik,tech
+312,Jag programmerar i Python,tech
+313,Jag experimenterar med AI,tech
+314,Jag bygger elektronik,tech
+315,Jag kodar hobbyprojekt,tech
+316,Jag bygger elektronik,tech
+317,Jag experimenterar med AI,tech
+318,Jag bygger elektronik,tech
+319,Jag experimenterar med AI,tech
+320,Jag programmerar i Python,tech
+321,Jag kodar hobbyprojekt,tech
+322,Jag experimenterar med AI,tech
+323,Jag experimenterar med AI,tech
+324,Jag kodar hobbyprojekt,tech
+325,Jag kodar hobbyprojekt,tech
+326,Jag bygger elektronik,tech
+327,Jag bygger robotar,tech
+328,Jag experimenterar med AI,tech
+329,Jag experimenterar med AI,tech
+330,Jag bygger elektronik,tech
+331,Jag spelar brädspel,gaming
+332,Jag tävlar i e-sport,gaming
+333,Jag spelar brädspel,gaming
+334,Jag tävlar i e-sport,gaming
+335,Jag spelar datorspel,gaming
+336,Jag streamar spel,gaming
+337,Jag streamar spel,gaming
+338,Jag streamar spel,gaming
+339,Jag tävlar i e-sport,gaming
+340,Jag spelar datorspel,gaming
+341,Jag tävlar i e-sport,gaming
+342,Jag spelar datorspel,gaming
+343,Jag spelar brädspel,gaming
+344,Jag streamar spel,gaming
+345,Jag tävlar i e-sport,gaming
+346,Jag streamar spel,gaming
+347,Jag spelar brädspel,gaming
+348,Jag spelar brädspel,gaming
+349,Jag streamar spel,gaming
+350,Jag spelar rollspel,gaming
+351,Jag spelar brädspel,gaming
+352,Jag spelar rollspel,gaming
+353,Jag tävlar i e-sport,gaming
+354,Jag tävlar i e-sport,gaming
+355,Jag tävlar i e-sport,gaming
+356,Jag tävlar i e-sport,gaming
+357,Jag streamar spel,gaming
+358,Jag streamar spel,gaming
+359,Jag spelar rollspel,gaming
+360,Jag spelar datorspel,gaming
+361,Jag spelar brädspel,gaming
+362,Jag spelar rollspel,gaming
+363,Jag tävlar i e-sport,gaming
+364,Jag spelar rollspel,gaming
+365,Jag tävlar i e-sport,gaming
+366,Jag spelar brädspel,gaming
+367,Jag spelar rollspel,gaming
+368,Jag spelar brädspel,gaming
+369,Jag spelar brädspel,gaming
+370,Jag spelar rollspel,gaming
+371,Jag spelar datorspel,gaming
+372,Jag streamar spel,gaming
+373,Jag spelar datorspel,gaming
+374,Jag spelar datorspel,gaming
+375,Jag streamar spel,gaming
+376,Jag spelar datorspel,gaming
+377,Jag tävlar i e-sport,gaming
+378,Jag streamar spel,gaming
+379,Jag tävlar i e-sport,gaming
+380,Jag spelar datorspel,gaming
+381,Jag spelar rollspel,gaming
+382,Jag spelar brädspel,gaming
+383,Jag spelar rollspel,gaming
+384,Jag spelar rollspel,gaming
+385,Jag tävlar i e-sport,gaming
+386,Jag åker på weekendresor,travel
+387,Jag besöker nya städer,travel
+388,Jag besöker nya städer,travel
+389,Jag backpackar,travel
+390,Jag besöker nya städer,travel
+391,Jag backpackar,travel
+392,Jag reser mycket,travel
+393,Jag backpackar,travel
+394,Jag åker på weekendresor,travel
+395,Jag besöker nya städer,travel
+396,Jag backpackar,travel
+397,Jag reser mycket,travel
+398,Jag backpackar,travel
+399,Jag åker på weekendresor,travel
+400,Jag backpackar,travel
+401,Jag åker på weekendresor,travel
+402,Jag backpackar,travel
+403,Jag reser mycket,travel
+404,Jag gillar att upptäcka världens kulturer,travel
+405,Jag besöker nya städer,travel
+406,Jag besöker nya städer,travel
+407,Jag backpackar,travel
+408,Jag åker på weekendresor,travel
+409,Jag reser mycket,travel
+410,Jag backpackar,travel
+411,Jag backpackar,travel
+412,Jag backpackar,travel
+413,Jag reser mycket,travel
+414,Jag backpackar,travel
+415,Jag backpackar,travel
+416,Jag besöker nya städer,travel
+417,Jag besöker nya städer,travel
+418,Jag besöker nya städer,travel
+419,Jag åker på weekendresor,travel
+420,Jag backpackar,travel
+421,Jag backpackar,travel
+422,Jag besöker nya städer,travel
+423,Jag åker på weekendresor,travel
+424,Jag besöker nya städer,travel
+425,Jag reser mycket,travel
+426,Jag gillar att upptäcka världens kulturer,travel
+427,Jag gillar att upptäcka världens kulturer,travel
+428,Jag reser mycket,travel
+429,Jag reser mycket,travel
+430,Jag reser mycket,travel
+431,Jag backpackar,travel
+432,Jag åker på weekendresor,travel
+433,Jag besöker nya städer,travel
+434,Jag besöker nya städer,travel
+435,Jag åker på weekendresor,travel
+436,Jag backpackar,travel
+437,Jag besöker nya städer,travel
+438,Jag backpackar,travel
+439,Jag gillar att upptäcka världens kulturer,travel
+440,Jag besöker nya städer,travel
+441,Jag renoverar huset,diy
+442,Jag renoverar huset,diy
+443,Jag snickrar hemma,diy
+444,Jag snickrar hemma,diy
+445,Jag gör DIY-projekt,diy
+446,Jag gör DIY-projekt,diy
+447,Jag snickrar hemma,diy
+448,Jag arbetar i trädgården,diy
+449,Jag bygger möbler,diy
+450,Jag bygger möbler,diy
+451,Jag bygger möbler,diy
+452,Jag arbetar i trädgården,diy
+453,Jag bygger möbler,diy
+454,Jag bygger möbler,diy
+455,Jag arbetar i trädgården,diy
+456,Jag gör DIY-projekt,diy
+457,Jag renoverar huset,diy
+458,Jag renoverar huset,diy
+459,Jag gör DIY-projekt,diy
+460,Jag bygger möbler,diy
+461,Jag bygger möbler,diy
+462,Jag gör DIY-projekt,diy
+463,Jag renoverar huset,diy
+464,Jag arbetar i trädgården,diy
+465,Jag arbetar i trädgården,diy
+466,Jag renoverar huset,diy
+467,Jag renoverar huset,diy
+468,Jag arbetar i trädgården,diy
+469,Jag renoverar huset,diy
+470,Jag bygger möbler,diy
+471,Jag arbetar i trädgården,diy
+472,Jag bygger möbler,diy
+473,Jag renoverar huset,diy
+474,Jag arbetar i trädgården,diy
+475,Jag bygger möbler,diy
+476,Jag snickrar hemma,diy
+477,Jag renoverar huset,diy
+478,Jag gör DIY-projekt,diy
+479,Jag bygger möbler,diy
+480,Jag renoverar huset,diy
+481,Jag renoverar huset,diy
+482,Jag renoverar huset,diy
+483,Jag gör DIY-projekt,diy
+484,Jag bygger möbler,diy
+485,Jag snickrar hemma,diy
+486,Jag gör DIY-projekt,diy
+487,Jag renoverar huset,diy
+488,Jag renoverar huset,diy
+489,Jag snickrar hemma,diy
+490,Jag renoverar huset,diy
+491,Jag renoverar huset,diy
+492,Jag snickrar hemma,diy
+493,Jag bygger möbler,diy
+494,Jag gör DIY-projekt,diy
+495,Jag gör DIY-projekt,diy
+496,Jag backpackar,travel
+497,Jag klättrar i berg,outdoors
+498,Jag experimenterar med AI,tech
+499,Jag bygger robotar,tech
+500,Jag kör padel,sports
+501,Jag lagar mycket mat,cooking
+502,Jag programmerar i Python,tech
+503,Jag gillar att upptäcka världens kulturer,travel
+504,Jag testar nya recept,cooking
+505,Jag producerar musik,music

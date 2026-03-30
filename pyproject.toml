@@ -43,3 +43,6 @@ kedro_init_version = "1.2.0"
 tools = "['Data Structure']"
 example_pipeline = "True"
 source_dir = "src"
+
+[tool.kedro_telemetry]
+project_id = "ff14c95d11624a9299d178e5e71251ab"
