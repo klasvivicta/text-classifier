@@ -1,0 +1,109 @@
+categories:
+  - id: sports
+    label: "Sport & Träning"
+    description: "Intressen kopplade till fysisk aktivitet, sporter och träning."
+    keywords:
+      - träning
+      - gym
+      - fotboll
+      - cykling
+      - löpning
+    anti_keywords:
+      - sportbil
+    examples:
+      - "Jag tränar på gymmet flera gånger i veckan."
+      - "Jag gillar att springa maraton och cykla långt."
+
+  - id: outdoors
+    label: "Natur & Friluftsliv"
+    description: "Intressen som rör naturen, utomhusaktiviteter och friluftsliv."
+    keywords:
+      - vandring
+      - fjällen
+      - camping
+      - fiske
+      - klättring
+    examples:
+      - "Jag älskar att vandra i fjällen."
+
+  - id: cooking
+    label: "Matlagning & Bakning"
+    description: "Intressen inom matlagning, bakning och kulinariska aktiviteter."
+    keywords:
+      - baka
+      - matlagning
+      - recept
+      - grillning
+      - fermentering
+    examples:
+      - "Jag gillar att experimentera i köket och testa nya recept."
+
+  - id: arts
+    label: "Kultur & Konst"
+    description: "Konstnärliga aktiviteter som målning, teater, museer och kultur."
+    keywords:
+      - måla
+      - konst
+      - teater
+      - museum
+      - poesi
+    examples:
+      - "Jag går ofta på teater och utställningar."
+
+  - id: music
+    label: "Musik & Instrument"
+    description: "Aktiviteter kopplade till musik, sång och spelande av instrument."
+    keywords:
+      - gitarr
+      - sjunga
+      - piano
+      - konsert
+      - studio
+    examples:
+      - "Jag spelar gitarr och sjunger i ett band."
+
+  - id: tech
+    label: "Teknik & Programmering"
+    description: "Intressen inom teknik, programmering, elektronik och IT."
+    keywords:
+      - programmering
+      - kod
+      - AI
+      - elektronik
+      - robotik
+    examples:
+      - "Jag bygger hobbyprojekt med Raspberry Pi."
+
+  - id: gaming
+    label: "Spel & E-sport"
+    description: "Digitala spel, e-sport, brädspel och rollspel."
+    keywords:
+      - gaming
+      - esports
+      - brädspel
+      - rollspel
+      - datorspel
+    examples:
+      - "Jag spelar mycket CS2 och andra onlinespel."
+
+  - id: travel
+    label: "Resor & Upplevelser"
+    description: "Resor, kulturutforskning och äventyr."
+    keywords:
+      - resa
+      - backpacking
+      - flyg
+      - hotell
+    examples:
+      - "Jag älskar att resa och upptäcka nya städer."
+
+  - id: diy
+    label: "Hem & Kreativa Projekt"
+    description: "Hobbyprojekt som snickeri, hemmafix och inredning."
+    keywords:
+      - snickra
+      - renovera
+      - inredning
+      - trädgård
+    examples:
+      - "Jag bygger mycket möbler själv."
