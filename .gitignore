@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Python tooling and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.idea/
+
+# Kedro local-only config
+conf/local/*
+!conf/local/.gitkeep
+
+# Kedro data folders: keep directory placeholders, ignore generated data
+data/**
+!data/
+!data/**/
+!data/**/.gitkeep
