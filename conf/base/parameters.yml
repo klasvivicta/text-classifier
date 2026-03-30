@@ -107,3 +107,13 @@ categories:
       - trädgård
     examples:
       - "Jag bygger mycket möbler själv."
+
+model_training:
+  test_size: 0.2
+  random_state: 42
+  tfidf:
+    lowercase: true
+    ngram_range: [1, 2]
+    max_features: 5000
+  logistic_regression:
+    max_iter: 1000

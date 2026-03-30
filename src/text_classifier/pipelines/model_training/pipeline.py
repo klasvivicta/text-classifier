@@ -1,16 +1,16 @@
 from kedro.pipeline import Node, Pipeline
 
-from .nodes import prepare_model_training_data
+from .nodes import train_text_classifier
 
 
 def create_pipeline(**kwargs) -> Pipeline:
     return Pipeline(
         [
             Node(
-                func=prepare_model_training_data,
-                inputs="classified_text",
-                outputs="model_training_data",
-                name="prepare_model_training_data",
+                func=train_text_classifier,
+                inputs=["classified_text", "params:model_training"],
+                outputs=["text_classifier_model", "model_training_metrics"],
+                name="train_text_classifier",
             ),
         ]
     )

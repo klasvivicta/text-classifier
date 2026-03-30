@@ -8,8 +8,12 @@ classified_text:
   filepath: data/02_intermediate/training_data.parquet
 
 
-model_training_data:
-  type: pandas.ParquetDataset
-  filepath: data/05_model_input/model_training_data.parquet
+text_classifier_model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/text_classifier_model.pkl
 
+
+model_training_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/model_training_metrics.json
 
