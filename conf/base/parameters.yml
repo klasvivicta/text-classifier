@@ -115,5 +115,34 @@ model_training:
     lowercase: true
     ngram_range: [1, 2]
     max_features: 5000
+    stop_words:
+      - att
+      - och
+      - i
+      - på
+      - med
+      - av
+      - för
+      - till
+      - från
+      - som
+      - är
+      - var
+      - det
+      - den
+      - detta
+      - en
+      - ett
+      - om
+      - också
+      - bara
+      - mycket
+      - jag
+      - du
+      - han
+      - hon
+      - vi
+      - de
+      - man
   logistic_regression:
     max_iter: 1000

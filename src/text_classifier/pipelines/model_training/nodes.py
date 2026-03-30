@@ -40,6 +40,7 @@ def train_text_classifier(
                     lowercase=parameters["tfidf"]["lowercase"],
                     ngram_range=tuple(parameters["tfidf"]["ngram_range"]),
                     max_features=parameters["tfidf"]["max_features"],
+                    stop_words=parameters["tfidf"]["stop_words"],
                 ),
             ),
             (
@@ -66,6 +67,5 @@ def train_text_classifier(
             y_test, predictions, output_dict=True, zero_division=0
         ),
     }
-    print(metrics)
-    
+
     return model, metrics
