@@ -5,5 +5,7 @@ raw_classified_text:
 
 classified_text:
   type: pandas.ParquetDataset
-  filepath: data/01_raw/training_data.parquet
+  filepath: data/02_intermediate/training_data.parquet
+
+
 
