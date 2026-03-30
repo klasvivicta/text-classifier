@@ -8,4 +8,8 @@ classified_text:
   filepath: data/02_intermediate/training_data.parquet
 
 
+model_training_data:
+  type: pandas.ParquetDataset
+  filepath: data/05_model_input/model_training_data.parquet
+
 
