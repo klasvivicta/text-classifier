@@ -1,6 +1,8 @@
 # macOS
 .DS_Store
-
+.viz
+.vscode
+ 
 # Python bytecode and caches
 __pycache__/
 *.py[cod]
