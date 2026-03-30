@@ -26,3 +26,13 @@ embedding_text_classifier_artifact:
 embedding_training_metrics:
   type: json.JSONDataset
   filepath: data/08_reporting/embedding_training_metrics.json
+
+
+candidate_category_clusters:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/candidate_category_clusters.csv
+
+
+category_discovery_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/category_discovery_metrics.json
