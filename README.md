@@ -55,16 +55,17 @@ Det här är också en bra mellanväg mellan klassisk ML och generativa språkmo
 
 Projektet innehåller även ett explorativt spår för kategoriupptäckt. Tanken är inte att automatiskt skapa sanna nya etiketter, utan att identifiera grupper av meningar som verkar tillhöra något gemensamt tema men som inte passar rent in i de befintliga kategorierna.
 
-Detta görs i två steg:
+Detta görs nu i tre steg:
 
-- meningarna omvandlas till embeddings
-- embeddings klustras med DBSCAN
+- den märkta träningsdatan används för att välja DBSCAN-parametrar som ger bra kluster i relation till kända kategorier
+- en nyhetsgräns kalibreras utifrån hur nära kända texter ligger sina kategoricentroider i embedding-rummet
+- den omärkta datan klustras med de valda parametrarna och jämförs mot de kända kategorierna
 
 DBSCAN används eftersom algoritmen inte kräver att antalet kluster bestäms i förväg. Den letar i stället efter täta grupper i embedding-rummet och kan samtidigt märka ut avvikande punkter som brus. Det gör metoden lämplig när man vill hitta möjliga nya teman i textdata.
 
-Efter klustringen analyseras varje kluster i relation till de befintliga etiketterna. Om ett kluster domineras tydligt av en redan känd kategori tolkas det som ett befintligt tema. Om ett kluster däremot är mer blandat, eller inte tydligt passar in under en befintlig label, markeras det som en kandidat till ny kategori. Projektet tar också fram representativa texter och frekventa nyckelord för att göra sådana kandidater lättare att tolka manuellt.
+För att undvika att upprepade identiska träningsmeningar styr all tuning dedupliceras den märkta datan innan parameter-sökningen. Efter klustringen analyseras varje kluster i den omärkta datan i relation till de befintliga etiketterna. Om ett kluster ligger tydligt längre från alla kända kategorier än vad de kända exemplen själva gör markeras det som en kandidat till ett nytt område. Projektet tar också fram representativa texter, närmaste kända etikett och frekventa nyckelord för att göra sådana kandidater lättare att tolka manuellt.
 
-Det betyder i praktiken att lösningen inte “uppfinner” nya kategorier helt automatiskt. Den föreslår snarare semantiskt sammanhållna grupper som en människa sedan kan granska och eventuellt omvandla till en ny taxonomisk kategori, till exempel ett nytt tema som socialt umgänge, familjeliv eller andra tidigare odefinierade intressen.
+Det betyder i praktiken att lösningen inte “uppfinner” nya kategorier helt automatiskt. Den föreslår snarare semantiskt sammanhållna grupper i `data_no_label.csv` som en människa sedan kan granska och eventuellt omvandla till en ny taxonomisk kategori, till exempel ett nytt tema som socialt umgänge, familjeliv eller andra tidigare odefinierade intressen.
 
 ## Rules and guidelines
 

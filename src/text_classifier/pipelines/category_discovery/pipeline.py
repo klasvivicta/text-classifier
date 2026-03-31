@@ -8,8 +8,16 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             Node(
                 func=discover_candidate_categories,
-                inputs=["classified_text", "params:category_discovery"],
-                outputs=["candidate_category_clusters", "category_discovery_metrics"],
+                inputs=[
+                    "raw_classified_text",
+                    "raw_unclassified_text",
+                    "params:category_discovery",
+                ],
+                outputs=[
+                    "candidate_category_clusters",
+                    "category_discovery_metrics",
+                    "category_discovery_tuning_results",
+                ],
                 name="discover_candidate_categories",
             ),
         ]

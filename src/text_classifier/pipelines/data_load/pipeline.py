@@ -12,5 +12,11 @@ def create_pipeline(**kwargs) -> Pipeline:
                 outputs="classified_text",
                 name="load_training_data",
             ),
+            Node(
+                func=load_csv,
+                inputs="raw_unclassified_text",
+                outputs="unclassified_text",
+                name="load_unclassified_data",
+            ),
         ]
     )

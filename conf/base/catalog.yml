@@ -3,9 +3,19 @@ raw_classified_text:
   filepath: data/01_raw/training_data.csv
 
 
+raw_unclassified_text:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/data_no_label.csv
+
+
 classified_text:
   type: pandas.ParquetDataset
   filepath: data/02_intermediate/training_data.parquet
+
+
+unclassified_text:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/data_no_label.parquet
 
 
 text_classifier_model:
@@ -36,3 +46,8 @@ candidate_category_clusters:
 category_discovery_metrics:
   type: json.JSONDataset
   filepath: data/08_reporting/category_discovery_metrics.json
+
+
+category_discovery_tuning_results:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/category_discovery_tuning_results.csv

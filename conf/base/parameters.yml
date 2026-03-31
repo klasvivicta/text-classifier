@@ -164,8 +164,10 @@ category_discovery:
     batch_size: 16
     normalize_embeddings: true
     device: cpu
+  tuning:
+    deduplicate_training_texts: true
+    eps_values: [0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
+    min_samples_values: [2, 3, 4]
   discovery:
-    eps: 0.35
-    min_samples: 2
-    known_category_dominance_threshold: 0.8
+    novelty_similarity_quantile: 0.1
     top_keywords: 5
