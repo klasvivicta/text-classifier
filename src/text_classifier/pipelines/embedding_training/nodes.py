@@ -6,7 +6,8 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
-from sentence_transformers import SentenceTransformer
+
+from text_classifier.embeddings import build_sentence_transformer, encode_texts
 
 
 def train_embedding_classifier(
@@ -33,22 +34,18 @@ def train_embedding_classifier(
     )
 
     embedding_model_name = parameters["embedding_model"]["name"]
-    batch_size = parameters["embedding_model"]["batch_size"]
     normalize_embeddings = parameters["embedding_model"]["normalize_embeddings"]
-    device = parameters["embedding_model"]["device"]
 
-    encoder = SentenceTransformer(embedding_model_name, device=device)
-    X_train_embeddings = encoder.encode(
+    encoder = build_sentence_transformer(parameters["embedding_model"])
+    X_train_embeddings = encode_texts(
+        encoder,
         X_train.tolist(),
-        batch_size=batch_size,
-        normalize_embeddings=normalize_embeddings,
-        show_progress_bar=False,
+        parameters["embedding_model"],
     )
-    X_test_embeddings = encoder.encode(
+    X_test_embeddings = encode_texts(
+        encoder,
         X_test.tolist(),
-        batch_size=batch_size,
-        normalize_embeddings=normalize_embeddings,
-        show_progress_bar=False,
+        parameters["embedding_model"],
     )
 
     classifier = LogisticRegression(

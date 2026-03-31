@@ -7,7 +7,8 @@ import pandas as pd
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import adjusted_rand_score, homogeneity_completeness_v_measure
 from sklearn.metrics.pairwise import cosine_similarity
-from sentence_transformers import SentenceTransformer
+
+from text_classifier.embeddings import build_sentence_transformer, encode_texts
 
 
 def discover_candidate_categories(
@@ -21,22 +22,17 @@ def discover_candidate_categories(
     tuning_df = _prepare_training_rows(training_df, tuning_params)
     unclassified_df = unclassified_df.reset_index(drop=True).copy()
 
-    encoder = SentenceTransformer(
-        embedding_params["name"],
-        device=embedding_params["device"],
-    )
+    encoder = build_sentence_transformer(embedding_params)
 
-    training_embeddings = encoder.encode(
+    training_embeddings = encode_texts(
+        encoder,
         tuning_df["text"].tolist(),
-        batch_size=embedding_params["batch_size"],
-        normalize_embeddings=embedding_params["normalize_embeddings"],
-        show_progress_bar=False,
+        embedding_params,
     )
-    unclassified_embeddings = encoder.encode(
+    unclassified_embeddings = encode_texts(
+        encoder,
         unclassified_df["text"].tolist(),
-        batch_size=embedding_params["batch_size"],
-        normalize_embeddings=embedding_params["normalize_embeddings"],
-        show_progress_bar=False,
+        embedding_params,
     )
 
     tuning_results_df = _tune_dbscan_parameters(

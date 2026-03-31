@@ -25,7 +25,7 @@ Projektet använder två huvudsakliga angreppssätt för klassificering.
 
 Det första är en traditionell bag-of-words-liknande metod där texten representeras med TF-IDF. Där ges högre vikt åt ord som är informativa i relation till resten av materialet. Dessa vektorer används sedan som indata till en Logistic Regression-modell. Det här fungerar som en tydlig och lättolkad baseline, och gör det möjligt att förstå vilka ord och fraser som driver klassificeringen.
 
-Det andra angreppssättet bygger på embeddings från en liten flerspråkig språkmodell. I stället för att representera text som en lista av ordvikter representeras varje mening som en tät numerisk vektor som försöker fånga betydelse och semantisk likhet. Ovanpå dessa embeddings tränas en klassisk classifier, även här Logistic Regression. Det ger ofta bättre generalisering än TF-IDF när två meningar betyder liknande saker men använder olika ord.
+Det andra angreppssättet bygger på embeddings från en modern flerspråkig språkmodell. I stället för att representera text som en lista av ordvikter representeras varje mening som en tät numerisk vektor som försöker fånga betydelse och semantisk likhet. Ovanpå dessa embeddings tränas en klassisk classifier, även här Logistic Regression. Det ger ofta bättre generalisering än TF-IDF när två meningar betyder liknande saker men använder olika ord.
 
 Normalisering av embeddings används för att göra vektorerna mer jämförbara. Det innebär att fokus hamnar mer på riktning i det semantiska rummet än på absolut storlek, vilket ofta passar bra för både likhetsberäkning och klassificering.
 
@@ -43,6 +43,8 @@ För att minska brus används stoppord. Det gör att mycket vanliga småord inte
 
 I embedding-spåret används en sentence-transformer för att skapa en vektor per mening. Den vektorn beskriver meningens innehåll i ett semantiskt rum där liknande meningar hamnar nära varandra. Därefter tränas en Logistic Regression-modell på dessa vektorer.
 
+Standardmodellen i projektet är nu `Qwen/Qwen3-Embedding-0.6B`. Den är större än den tidigare MiniLM-modellen, men ger en mer modern embedding-bas med stöd för längre kontext, instruktioner och valfri reducering av embedding-dimension via model configuration.
+
 Den här metoden är särskilt intressant när man vill:
 
 - fånga semantisk likhet snarare än exakt ordöverlapp
@@ -50,6 +52,15 @@ Den här metoden är särskilt intressant när man vill:
 - skapa en grund för vidare arbete med mer moderna språkmodeller
 
 Det här är också en bra mellanväg mellan klassisk ML och generativa språkmodeller. Man får en modern textrepresentation utan att behöva finjustera en full LLM för själva klassificeringen.
+
+Embeddingmodellen styrs via `conf/base/parameters.yml` i både `embedding_training` och `category_discovery`. Förutom modellnamn, `batch_size`, `normalize_embeddings` och `device` finns nu även stöd för:
+
+- `truncate_dim` för att kapa embeddingstorleken om man vill göra downstream-modeller lättare
+- `max_seq_length` för att sätta en explicit token-gräns
+- `prompt_name` eller `prompt` om modellen ska användas instruktionellt
+- `model_kwargs` och `tokenizer_kwargs` för modell- och tokenizer-specifika inställningar
+
+Om du kör på CPU är det klokt att börja med låg `batch_size`. Vid GPU-körning kan `batch_size` ofta höjas igen.
 
 ## Upptäckt av nya kategorier
 
